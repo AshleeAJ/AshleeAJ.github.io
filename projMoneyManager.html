@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta= charset="UTF-8">
+	<title>Project</title>
+	<link href="css\styleSheet1.css" rel="stylesheet" />
+</head>
+<body id="bodyExcludingIndex">
+	<nav id="stickyNav">
+	<header>
+		<div id="onNavHeading">
+			<h1>Ashlee Jackson</h1>
+			<h2>Student portfolio</h2>
+		</div>
+	</header>
+		<ul id="stickyMenu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="files\Resume.pdf">Resume</a></li>
+			<li class="position"><a href="portfolio.html">Portfolio</a></li>
+			<li><a id="stopOverflow" href="files\Transcript.pdf">Academic Transcript</a></li>
+		</ul>
+	</nav>
+	<ul class="breadcrumb">
+		<li><a href="index.html">Home</a></li>
+		<li>></li>
+		<li><a href="portfolio.html">Portfolio</a></li>
+		<li>></li>
+		<li><a href="projMoneyManager.html">Money manager</a></li>
+	</ul>
+	<h2 id="projectHeading">Money Manager application</h2>
+	<section id="projectContainer">
+		<div class="projectImageContainer">
+			<img src="images\moneyManager.png" alt="Money manager login screen" height="160" width="350" />
+			<img src="images\moneyManager2.png" alt="Money manager main screen with spending graph" height="160" width="350" />
+		</div>
+		<article class="projectBody">
+			<h2>About this project</h2>
+			<p>This project is a GUI application to help users track their spending.
+			<br /><br />The first screen is a login screen, which checks the user pin matches to the user pin
+			in the corresponding user number .txt file before allowing login.
+			<br />The second screen is the main program, allowing users to deposit an amount,
+			then allocate that amount to different types of expenses. The expensives are tracked
+			in a graph below the transaction screen (not pictured).
+			<br />When the user logs out their activity is written to their user number .txt file
+			so that it may be displayed the next time the user logs in to their account.</p>
+			<div class="githubLinkContainer">
+				<a href="https://github.com/AshleeAJ/moneyManager" target="_blank">
+					<img src="images\githubLogo2.png" alt="GitHub logo" height="40" width="40" />
+					<p>Link to github repository</p>
+				</a>
+			</div>
+		</article>
+	</section>
+	<footer>
+		<div id="copyright">
+			<p>copyright 2021&copy; Ashlee Jackson</p>
+		</div>
+		<div id="socialMediaLinks">
+			<a href="https://www.linkedin.com/in/ashlee-jackson-954596226/" target="_blank" id="linkedin"><img src="images\LinkedinScaled.png" alt="LinkedIn Logo" width="25" height="25"/></a>
+			<a href="https://www.facebook.com/ashlee.jackson.359778/" target="_blank" id="facebook"><img src="images\FacebookScaled.png" alt="Facebook Logo" width="35" height="35"/></a>
+			<a href="https://twitter.com/FloralManatee" target="_blank" id="twitter"><img src="images\TwitterScaled.png" alt="Twitter Logo" width="40" height="40"/></a>
+		</div>
+	</footer>
+</body>
+</html>

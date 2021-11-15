@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta= charset="UTF-8">
+	<title>Project</title>
+	<link href="css\styleSheet1.css" rel="stylesheet" />
+</head>
+<body id="bodyExcludingIndex">
+	<nav id="stickyNav">
+	<header>
+		<div id="onNavHeading">
+			<h1>Ashlee Jackson</h1>
+			<h2>Student portfolio</h2>
+		</div>
+	</header>
+		<ul id="stickyMenu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="files\Resume.pdf">Resume</a></li>
+			<li class="position"><a href="portfolio.html">Portfolio</a></li>
+			<li><a id="stopOverflow" href="files\Transcript.pdf">Academic Transcript</a></li>
+		</ul>
+	</nav>
+	<ul class="breadcrumb">
+		<li><a href="index.html">Home</a></li>
+		<li>></li>
+		<li><a href="portfolio.html">Portfolio</a></li>
+		<li>></li>
+		<li><a href="projMonsterMayhem.html">Monster Mayhem</a></li>
+	</ul>
+	<h2 id="projectHeading">Monster Mayhem Game Manager</h2>
+	<section id="projectContainer">
+		<div class="projectImageContainer">
+			<img src="images\monsterMayhem.png" alt="Project in Java CLI" height="160" width="350" />
+		</div>
+		<article class="projectBody">
+			<h2>About this project</h2>
+			<p>This project is a game manager for a game similar to 'Dungeons and Dragons'.
+			It includes a GUI that allows the user to create a party of custom player characters
+			and pit them against a party of pre-generated monsters. 
+			The battle turn sequence is randomly generated; the players must defeat all the monsters to win.
+			<br />This program attempts to follow coding best-practices through the use of
+			design patterns (such as the MVC pattern) and JUnit testing.</p>
+			<div class="githubLinkContainer">
+				<a href="https://github.com/AshleeAJ/MonsterMayhem" target="_blank">
+					<img src="images\githubLogo2.png" alt="GitHub logo" height="40" width="40" />
+					<p>Link to github repository</p>
+				</a>
+			</div>
+		</article>
+	</section>
+	<footer>
+		<div id="copyright">
+			<p>copyright 2021&copy; Ashlee Jackson</p>
+		</div>
+		<div id="socialMediaLinks">
+			<a href="https://www.linkedin.com/in/ashlee-jackson-954596226/" target="_blank" id="linkedin"><img src="images\LinkedinScaled.png" alt="LinkedIn Logo" width="25" height="25"/></a>
+			<a href="https://www.facebook.com/ashlee.jackson.359778/" target="_blank" id="facebook"><img src="images\FacebookScaled.png" alt="Facebook Logo" width="35" height="35"/></a>
+			<a href="https://twitter.com/FloralManatee" target="_blank" id="twitter"><img src="images\TwitterScaled.png" alt="Twitter Logo" width="40" height="40"/></a>
+		</div>
+	</footer>
+</body>
+</html>
